@@ -1,4 +1,4 @@
-# Dataset Generator for Speech Processing
+# Noisy Dataset Generator for Speech Processing
 
 A comprehensive system for creating speech processing datasets from YouTube lectures. This tool automatically downloads, segments, and processes audio to create clean/noisy pairs perfect for training speech enhancement models.
 
