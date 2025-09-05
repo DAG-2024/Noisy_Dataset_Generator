@@ -1,0 +1,1 @@
+But next lecture, we will see how we can insert decision pointsin our programs for the computer to either execute one set of code or another set of code. All right. So that's the end of today's lecture. Thank you all for joining. I will see you on Monday.
