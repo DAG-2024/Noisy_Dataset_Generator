@@ -6,7 +6,7 @@ This script demonstrates how to use the noisy_dataset_generator.py to create
 a comprehensive speech processing dataset from YouTube videos.
 """
 
-from dataset_generator import DatasetGenerator
+from noisy_dataset_generator import DatasetGenerator
 import logging
 
 # Set up logging

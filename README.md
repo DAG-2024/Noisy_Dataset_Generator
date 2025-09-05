@@ -93,7 +93,7 @@ python noisy_dataset_generator.py --query noisy
 
 ### Custom Dataset Configuration
 ```python
-from dataset_generator import DatasetGenerator
+from noisy_dataset_generator import DatasetGenerator
 
 # Initialize with custom settings
 generator = DatasetGenerator(
@@ -224,7 +224,7 @@ python noisy_dataset_generator.py --stats
 python noisy_dataset_generator.py --query clean
 
 # 4. Use in your ML pipeline
-from dataset_generator import DatasetGenerator
+from noisy_dataset_generatorimport DatasetGenerator
 generator = DatasetGenerator()
 clean_segments = generator.query_segments(segment_type="clean")
 noisy_segments = generator.query_segments(segment_type="noisy")
