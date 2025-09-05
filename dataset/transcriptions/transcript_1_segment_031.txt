@@ -1,0 +1,1 @@
+So this is true for all n greater than or equal to 2. Okay. Okay. Okay. Now, if I want to know all of these integrals,I and using this formula,what else do I need to know? I0 and I1 because it drops down by 2. So let's compute I0 and I1. So we also need I0 andI1. So I0 would be just the integral dx, which is x plus c. And I1 is the integral ofcos x dx, which is sine x plus c.

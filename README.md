@@ -41,12 +41,12 @@ pip install -r requirements.txt
 
 ### Process a Single Video
 ```bash
-python dataset_generator.py "https://www.youtube.com/watch?v=I3GWzXRectE"
+python noisy_dataset_generator.py "https://www.youtube.com/watch?v=I3GWzXRectE"
 ```
 
 ### Process Multiple Videos
 ```bash
-python dataset_generator.py \
+python noisy_dataset_generator.py \
     "https://www.youtube.com/watch?v=I3GWzXRectE" \
     "https://www.youtube.com/watch?v=VIDEO_ID_2" \
     --segments 100 \
@@ -55,13 +55,13 @@ python dataset_generator.py \
 
 ### View Dataset Statistics
 ```bash
-python dataset_generator.py --stats
+python noisy_dataset_generator.py --stats
 ```
 
 ### Query Segments
 ```bash
-python dataset_generator.py --query clean
-python dataset_generator.py --query noisy
+python noisy_dataset_generator.py --query clean
+python noisy_dataset_generator.py --query noisy
 ```
 
 ## 📊 Database Schema
@@ -211,17 +211,17 @@ print(f"Average segment: {stats['duration']['average_seconds']:.1f} seconds")
 
 ```bash
 # 1. Create dataset from multiple videos
-python dataset_generator.py \
+python noisy_dataset_generator.py \
     "https://www.youtube.com/watch?v=LECTURE_1" \
     "https://www.youtube.com/watch?v=LECTURE_2" \
     --segments 100 \
     --interferences 5
 
 # 2. Check dataset statistics
-python dataset_generator.py --stats
+python noisy_dataset_generator.py --stats
 
 # 3. Query specific segments
-python dataset_generator.py --query clean
+python noisy_dataset_generator.py --query clean
 
 # 4. Use in your ML pipeline
 from dataset_generator import DatasetGenerator

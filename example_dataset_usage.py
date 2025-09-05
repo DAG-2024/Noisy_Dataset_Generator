@@ -2,7 +2,7 @@
 """
 Example usage of the Dataset Generator
 
-This script demonstrates how to use the dataset_generator.py to create
+This script demonstrates how to use the noisy_dataset_generator.py to create
 a comprehensive speech processing dataset from YouTube videos.
 """
 
