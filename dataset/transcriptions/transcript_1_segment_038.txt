@@ -1,0 +1,1 @@
+And then separate the variables. As the name suggests, you have y over y squared minus 1 dy dx equals minus x over x squaredminus 1. OK. What do we do now? Correct. So if we look at this, then, so we integrate, let'sintegrate, well, let me write one more. So we integrate this and we get y over y squared minus 1dy equals minus x over x squared minus 1 dx.

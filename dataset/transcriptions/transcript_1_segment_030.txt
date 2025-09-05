@@ -1,0 +1,1 @@
+So now I recognize that this is the integral of cos n minus 2 is i sub n minus 2. And the integral of cos n, this is i n. So I have i n equals that. So if I solve for i n, we get i n equals, so I get n i n equals cos n minus 1x sin x plusn minus 1 i n minus 2, which gives me the recursive formula. i n equals 1 over n, cos n minus 1 x sin x plus n minus 1over n i n minus 2.
